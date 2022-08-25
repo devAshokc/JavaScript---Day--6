@@ -1,0 +1,44 @@
+//3.Write a person class to hold details
+
+
+class BankAccount {
+    constructor(name, Account_Num, balance, ifse_code) {
+        this.name = name;
+        this.Account_Num = Account_Num;
+        this.balance = balance;
+        this.ifse_code = ifse_code
+    }
+}
+const person = new BankAccount("Ashok", 1234 - 5678 - 9029, "🎯4000", 785647)
+console.log(person)
+
+//output
+
+BankAccount {name: 'Ashok', Account_Num: -13473, balance: '🎯4000', ifse_code: 785647}
+Account_Num: -13473
+balance: "🎯4000"
+ifse_code: 785647
+name: "Ashok"
+[[Prototype]]: Object
+
+
+4. write a calculator for
+class Calculate {
+    constructor(price) {
+        this.price = price
+    }
+    getPrice() {
+        return `The User price is: ${this.price * 100}`
+    }
+}
+
+const person1 = new Calculate(1039)
+const person2 = new Calculate(200)
+
+console.log(person2.getPrice())
+console.log(person1.getPrice())
+
+//output
+
+The User price is: 20000
+ The User price is: 103900
